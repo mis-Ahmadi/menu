@@ -1,0 +1,47 @@
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    background-color: rgb(32, 32, 81);
+    padding: 5px;
+    min-width: 70px;
+    text-align: center;
+    position: relative;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: orange;
+}
+
+.menu>ul ul {
+    display: none;
+}
+
+.menu ul li:hover {
+    background-color: rgb(93, 88, 88);
+
+}
+
+.menu ul li:hover>ul {
+    display: initial;
+    position: absolute;
+    top: 1.7em;
+    left: 0;
+
+}
+
+.menu ul li:hover>ul>li {
+    display: block;
+}
+
+.menu ul li>ul li:hover>ul {
+    display: initial;
+    position: initial;
+}

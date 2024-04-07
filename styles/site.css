@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.baneer {
+    background-color: rgb(93, 88, 88);
+    color: rgb(85, 232, 222);
+    font-size: xx-large;
+    padding: 40px 0;
+    text-align: center;
+}
